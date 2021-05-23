@@ -1,0 +1,592 @@
+html {
+    font-size: 62.5%;
+}
+
+.nav-ul {
+    margin-left: auto;
+    margin-right: 30px;
+}
+
+header {
+    background: black;
+}
+
+.navbar-brand {
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+nav li {
+    margin-left: 60px;
+    padding: 10px 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+
+@media (hover: hover) {
+    .nav-link:hover {
+        transform: scale(1.2);
+    }
+}
+
+
+
+.ylasection {
+    margin-top: 60px;
+}
+
+#background-image {
+    width: 100%;
+}
+
+#background-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+#large-background {
+    display: none;
+}
+
+
+
+.teksti-section {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.teksti-section > * {
+    flex-basis: 100%;
+    flex-grow: 1;
+}
+
+.teksti-section h2 {
+    font-size: 3.0rem;
+    margin-top: 20px;
+}
+
+
+.teksti-section p {
+    padding: 20px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+
+
+.footer {
+    background-color: black;
+    padding: 40px;
+}
+
+.p-footer {
+    padding-top: 20px;
+    text-align: center;
+    color: #76B72A;
+}
+
+
+
+.somekanavat {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.somekanavat > * {
+    flex-grow: 1;
+    font-size: 2rem;
+}
+
+
+i {
+    color: #76B72A;
+}
+
+.fab {
+    margin: 0 10px;
+}
+
+@media (hover: hover) {
+    .fab:hover {
+        transform: scale(2.0);
+    }
+}
+
+
+/*              MINUSTA SIVUN SÄÄNNÖT       */
+
+.minusta-kuva {
+    margin-top: 37px;
+}
+.minusta-kuva figure img {
+    max-width: 100%;
+}
+
+.minusta-wrapper {
+    margin-top: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.minusta-kortit {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.minusta-kortit > * {
+    flex-basis: 90%;
+    padding: 20px;
+    margin: 10px auto;
+    border: 1px solid black;
+    box-shadow: 4px 7px lightgray;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.lue-lisaa {
+    margin: 20px auto;
+    width: 7rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.kuuntele {
+    margin: 20px auto;
+    width: 7rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+@media (hover: hover) {
+    .minusta-kortit > *:hover {
+        color: black;
+        transform: scale(1.01);
+        box-shadow: 4px 7px #76B72A;
+    }
+}
+
+
+.minusta-wrapper h2 {
+    font-size: 3rem;
+    margin-bottom: 50px;
+}
+
+.minusta-tekstit {
+    margin: 0px 15px 60px 15px;
+}
+
+.minusta-tekstit p {
+    line-height: 2rem;
+    font-size: 1.6rem;
+    margin: 20px 0px;
+}
+
+.minusta-kortit p {
+    font-size: 1.6rem;
+}
+
+
+
+
+/*              MINUSTA SIVUN SÄÄNNÖT LOPPUU      */
+
+
+/*              BIO SIVUN SÄÄNNÖT           */ 
+
+.cv-kuvasection {
+    margin-top: 37px;
+}
+
+.cv-herokuva-large {
+    display: none;
+}
+
+.cv-herokuva img {
+    max-width: 100%;
+}
+
+.bio-section {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.bio-section > * {
+    flex-basis: 100%;
+}
+
+.koulutus-section ul li {
+    padding: 6px;
+}
+
+.koulutus-section h2 {
+    margin: 0 0 20px 20px;
+}
+
+.bio-section p, li, td {
+    font-size: 1.4rem;
+}
+
+.table-section h2 {
+    margin: 40px 0 20px 20px;
+}
+
+.td-bold {
+    padding: 10px 20px 2px 20px;
+    font-weight: 500;
+    
+}
+
+.saavutukset-section h2 {
+    margin: 40px 0 20px 20px;
+}
+
+
+
+.bio-figure {
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.bio-figure img {
+    max-width: 100%;
+}
+
+.bio-figure-section2 {
+    margin-bottom: 20px;
+}
+
+.bio-artikkelit {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.bio-artikkelit-wrapper h2 {
+    margin: 30px 20px 20px 20px;
+}
+
+.bio-artikkelit-wrapper {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bio-artikkelit p a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #76B72A;
+}
+
+/*              BIO SIVUN SÄÄNNÖT LOPPUU        */ 
+
+
+/*              KUNTAVAALIT SIVUN SÄÄNNÖT        */
+
+.kuntavaalit-section {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.kuntavaalit-section h2 {
+    font-size: 3.0rem;
+    margin-bottom: 20px;
+}
+
+.kuntavaalit-tekstit {
+    width: 90%;
+    margin: auto;
+}
+
+.kuntavaalit-tekstit p {
+    font-size: 1.6rem;
+    text-align: center;
+    line-height: 3rem;
+    margin: 20px;
+}
+
+.muut-kielet {
+    text-align: center;
+}
+
+.muut-kielet-buttonit {
+    margin-bottom: 80px;
+}
+
+.muut-kielet-buttonit button {
+    padding: 10px 20px;
+    margin: 30px 8px;
+    border-radius: 4px;
+    background-color: black;
+    width: 150px;
+}
+
+@media (hover: hover) {
+    .muut-kielet-buttonit button:hover {
+        transform: scale(1.2);
+    }
+}
+
+
+button a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/*              KUNTAVAALIT SIVUN SÄÄNNÖT LOPPUU       */
+
+/*              YHTEYSTIEDOT  SIVUN SÄÄNNÖT            */
+
+.yhteystiedot-figure {
+    margin-top: 35px;
+}
+
+.yhteystiedot-figure img {
+    max-width: 100%;
+}
+
+.yhteystiedot-teksti {
+    padding: 60px;
+    text-align: justify;
+}
+
+.yhteystiedot-teksti p {
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.sallamaarin-sposti {
+    font-weight: 700;
+}
+
+.yhteystiedot-somekanavat {
+    padding: 20px 60px 60px;
+    text-align: center;
+}
+
+.yhteystiedot-somekanavat p {
+    font-size: 1.4rem;
+}
+
+.yhteystiedot-somekanavat button {
+    width: 120px;
+    padding: 10px 20px;
+    margin: 30px 8px;
+    border-radius: 4px;
+    background-color: black;
+}
+
+@media (hover: hover) {
+    .yhteystiedot-somekanavat button:hover {
+        transform: scale(1.2);
+    }
+}
+
+
+.yhteystiedot-somekanavat button a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.yhteystiedot-figure-large {
+    display: none;
+}
+
+
+
+
+/*              YHTEYSTIEDOT  SIVUN SÄÄNNÖT LOPPUU      */
+
+
+@media screen and (min-width: 500px) {
+
+    .teksti-section {
+        padding: 50px;
+    }
+
+    .bio-section .table-section, .saavutukset-section {
+        margin: auto 0;
+        flex-basis: 50%;
+    }
+
+    .bio-section .bio-figure-section {
+        flex-basis: 50%;
+        margin-top: 40px;
+    }
+
+    .minusta-tekstit {
+        margin: auto;
+        width: 80%;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media screen and (min-width: 769px) {
+
+    .teksti-section {
+        padding: 50px;
+    }
+    .teksti-section p {
+        padding: 20px 80px;
+        line-height: 2em;
+    }
+
+    .kuntavaalit-section {
+        padding: 30px 100px;
+    }
+
+
+    .bio-section .bio-figure {
+        width: 70%;
+    }
+
+    .yhteystiedot-teksti {
+        padding: 60px 90px 60px 90px;
+    }
+
+    .yhteystiedot-somekanavat {
+        padding: 20px 90px 60px 90px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .kuntavaalit-section {
+        padding: 10px 150px;
+    }
+
+    .kuntavaalit-tekstit {
+        width: 70%;
+    }
+
+    .koulutus-section {
+        text-align: center;
+    }
+
+    .bio-section h2 {
+        text-align: center;
+        font-size: 3.0rem;
+    }
+
+    .bio-section li, td {
+        font-size: 2.0rem;
+    }
+
+    .bio-section table {
+        margin: auto;
+    }
+
+    /* .bio-section .saavutukset-section {
+        margin: auto;
+    } */
+
+    .yhteystiedot-teksti {
+        padding: 60px 150px 60px 150px;
+    }
+
+    .yhteystiedot-somekanavat {
+        padding: 20px 150px 60px 150px;
+    }
+
+    .yhteystiedot-figure {
+        margin-top: 60px;
+    }
+
+    .bio-section .bio-figure {
+        width: 60%;
+    }
+
+    .minusta-kuva {
+        margin-top: 60px;
+    }
+}
+
+
+@media screen and (max-width: 992px) {
+
+    .ylasection {
+        margin-top: 20px;
+    }
+
+    nav li {
+        margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 520px) {
+
+    .ylasection {
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (min-width: 2000px) {
+
+    #background-image {
+        display: none;
+    }
+
+    #large-background {
+        display: block;
+    }
+
+    #large-background img {
+        max-width: 100%;
+    }
+
+    .cv-herokuva {
+        display: none;
+    }
+
+    .cv-herokuva-large {
+        display: block;
+    }
+
+    .cv-herokuva-large img {
+        max-width: 100%;
+    }
+
+    .yhteystiedot-figure {
+        display: none;
+    }
+
+    .yhteystiedot-figure-large {
+        display: block;
+        margin-top: 60px;
+    }
+
+    .yhteystiedot-figure-large img {
+        max-width: 100%;
+    }
+}
